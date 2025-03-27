@@ -1,1 +1,1 @@
-Just a simple text making program.
+Nothing special, just a simple text file making program.
