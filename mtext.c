@@ -6,16 +6,20 @@
 #define MAX_FILES 32
 #define MAX_NAME  64
 #define MAX_TEXT  1024
-#define FILECOUNT "filecount.bin"
-#define FILELIST  "filelist.bin"
 
 #ifdef _WIN32
-#   define SAVEDIR "files\\"
-#   define SCRCLEAR "cls"
+#    define FILECOUNT "record\\filecount.bin"
+#    define FILELIST  "record\\filelist.bin"
+#    define SAVEDIR   "files\\"
+#    define SCRCLEAR  "cls"
 #else
-#   define SAVEDIR "files/"
-#   define SCRCLEAR "clear"
+#    define FILECOUNT "record/filecount.bin"
+#    define FILELIST  "record/filelist.bin"
+#    define SAVEDIR   "files/"
+#    define SCRCLEAR  "clear"
 #endif
+
+// TODO: hmm... improve evrything.
 
 /*--------- Internal function prototypes -----------*/
 int  get_choice(void);
