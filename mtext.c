@@ -8,13 +8,13 @@
 #define MAX_TEXT  1024
 
 #ifdef _WIN32
-#    define FILECOUNT "record\\filecount.bin"
-#    define FILELIST  "record\\filelist.bin"
+#    define FILECOUNT "files\\filecount.bin"
+#    define FILELIST  "files\\filelist.bin"
 #    define SAVEDIR   "files\\"
 #    define SCRCLEAR  "cls"
 #else
-#    define FILECOUNT "record/filecount.bin"
-#    define FILELIST  "record/filelist.bin"
+#    define FILECOUNT "files/filecount.bin"
+#    define FILELIST  "files/filelist.bin"
 #    define SAVEDIR   "files/"
 #    define SCRCLEAR  "clear"
 #endif
